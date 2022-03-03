@@ -49,6 +49,26 @@
         
     </header>
 
+    {{-- jumbotron pagina --}}
+    <div class="jumbotron">
+        
+    </div>
+
+
+    {{-- sezione fumetti --}}
+    <div class="comic-container">
+        <div class="comics row">
+            @foreach ($data as $comic)
+                <div class="card-comic col-2 mb-5">
+                    <div class="img-container">
+                        <img src="{{$comic["thumb"]}}" alt="cover">
+                    </div>
+                    <span>{{$comic["title"]}}</span>
+                </div>            
+            @endforeach
+        </div>
+    </div>
+
 
 
 </body>

@@ -12199,8 +12199,10 @@ header .header-content {
   align-items: center;
   justify-content: space-between;
   width: 80%;
+  height: 100%;
   margin: 0 auto;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 header .header-content .header-logo {
@@ -12264,6 +12266,44 @@ header .header-content .list-container .input-container input:-ms-input-placehol
 
 header .header-content .list-container .input-container input::placeholder {
   text-align: right;
+}
+
+.jumbotron {
+  height: 350px;
+  background: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+}
+
+.comic-container {
+  background-color: black;
+  padding: 30px;
+}
+
+.comic-container .comics {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.comic-container .comics .card-comic {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  word-break: break-all;
+}
+
+.comic-container .comics .card-comic .img-container {
+  width: 100%;
+}
+
+.comic-container .comics .card-comic .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.comic-container .comics .card-comic span {
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 body {

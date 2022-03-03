@@ -1,0 +1,34 @@
+.comic-container{
+    background-color: black;
+    padding: 30px;
+    .comics{
+        width: 80%;
+        margin: 0 auto;
+        
+        
+    
+        .card-comic{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: white;
+            word-break: break-all;
+    
+    
+            .img-container{
+               width: 100%;
+            
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                  
+                }
+            }
+            span{
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+        }
+    }
+}
