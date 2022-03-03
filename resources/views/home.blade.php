@@ -67,6 +67,36 @@
                 </div>            
             @endforeach
         </div>
+        <div class="load">
+            <span>LOAD MORE</span>
+        </div>
+    </div>
+
+    <div class="section-items">
+        <div class="items-container">
+            <ul>
+                <li>
+                    <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="digital comics">
+                    <span>DIGITAL COMICS</span>
+                </li>
+                <li>
+                    <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="dc merchandise">
+                    <span>DC MERCHANDISE</span>
+                </li>
+                <li>
+                    <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="subscription">
+                    <span>SUBSCRIPTION</span>
+                </li>
+                <li>
+                    <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="comic shop locator">
+                    <span>COMIC SHOP LOCATOR</span>
+                </li>
+                <li>
+                    <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="dc power visa">
+                    <span>DC POWER VISA</span>
+                </li>
+            </ul>
+        </div>
     </div>
 
 

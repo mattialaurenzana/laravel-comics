@@ -1,0 +1,29 @@
+.section-items{
+    background-color: rgb(30, 141, 214);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+
+     .items-container{
+
+        width: 70%;
+        margin: 0 auto;
+        ul{
+            display: flex;
+            gap: 60px;
+        }
+        
+        li{
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+    
+        img{
+            width: 40px;
+            margin-right: 10px;
+        }
+     }
+}

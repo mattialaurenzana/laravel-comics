@@ -12275,8 +12275,8 @@ header .header-content .list-container .input-container input::placeholder {
 }
 
 .comic-container {
-  background-color: black;
-  padding: 30px;
+  background-color: #000000;
+  padding: 50px 0;
 }
 
 .comic-container .comics {
@@ -12304,6 +12304,47 @@ header .header-content .list-container .input-container input::placeholder {
 .comic-container .comics .card-comic span {
   text-transform: uppercase;
   font-size: 12px;
+}
+
+.comic-container .load {
+  display: flex;
+  justify-content: center;
+}
+
+.comic-container .load span {
+  background-color: #1e8dd6;
+  padding: 5px 50px;
+  color: white;
+}
+
+.section-items {
+  background-color: #1e8dd6;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.section-items .items-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section-items .items-container ul {
+  display: flex;
+  gap: 60px;
+}
+
+.section-items .items-container li {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.section-items .items-container img {
+  width: 40px;
+  margin-right: 10px;
 }
 
 body {
