@@ -1,0 +1,17 @@
+.pre-header{
+    background-color: $color-blue;
+    height: 25px;
+    color: white;
+
+    .pre-header-content{
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+        font-size: 12px;
+    }
+
+}
