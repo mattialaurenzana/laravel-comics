@@ -1,0 +1,105 @@
+footer{
+    height: 400px;
+    background: url('../../../public/images/footer-bg.jpg');
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    color: grey;
+
+    img{
+        margin-top: -70px;
+        margin-bottom: -70px;
+    }
+
+    .footer-inner{
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-left{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+
+            .footer-phrase{
+                font-size: 11px;
+
+                .blue{
+                    color: $color-blue;
+                }
+            }
+
+            .lists-container{
+                height: 70%;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+        
+                // span{
+                //     margin: 30px 0;
+                //     margin-right: 35px;
+                // }
+        
+                ul{
+                    list-style: none;
+                    padding: 0;
+        
+                    span{
+                        margin-right: 30px;
+                    }
+                }
+        
+                li{
+                    font-size: 11px;
+                    margin-bottom: 5px;
+                    margin-right: 30px;
+                    color: grey;
+                }
+            }
+        
+        }
+
+    
+
+    }
+
+   
+    
+
+}
+
+.last-container{
+    height: 100px;
+    background-color: rgb(46, 43, 43);
+
+    .last-inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+
+        .sign{
+            color: white;
+             padding: 10px;
+            border: 2px blue solid;
+        }
+        .follow{
+            font-weight: bold;
+            color: rgb(45, 45, 218);
+        }
+
+        .last-right{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}

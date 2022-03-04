@@ -12327,13 +12327,13 @@ header .header-content .list-container .input-container input::placeholder {
 }
 
 .section-items .items-container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .section-items .items-container ul {
   display: flex;
-  gap: 60px;
+  gap: 110px;
 }
 
 .section-items .items-container li {
@@ -12345,6 +12345,99 @@ header .header-content .list-container .input-container input::placeholder {
 .section-items .items-container img {
   width: 40px;
   margin-right: 10px;
+}
+
+footer {
+  height: 400px;
+  background: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  color: grey;
+}
+
+footer img {
+  margin-top: -70px;
+  margin-bottom: -70px;
+}
+
+footer .footer-inner {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-inner .footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+footer .footer-inner .footer-left .footer-phrase {
+  font-size: 11px;
+}
+
+footer .footer-inner .footer-left .footer-phrase .blue {
+  color: #1e8dd6;
+}
+
+footer .footer-inner .footer-left .lists-container {
+  height: 70%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer .footer-inner .footer-left .lists-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-inner .footer-left .lists-container ul span {
+  margin-right: 30px;
+}
+
+footer .footer-inner .footer-left .lists-container li {
+  font-size: 11px;
+  margin-bottom: 5px;
+  margin-right: 30px;
+  color: grey;
+}
+
+ .last-container {
+  height: 100px;
+  background-color: #2e2b2b;
+}
+
+ .last-container .last-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ .last-container .last-inner .sign {
+  color: white;
+  padding: 10px;
+  border: 2px blue solid;
+}
+
+ .last-container .last-inner .follow {
+  font-weight: bold;
+  color: #2d2dda;
+}
+
+ .last-container .last-inner .last-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 body {
